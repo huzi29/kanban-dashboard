@@ -40,4 +40,4 @@ npm run dev
 npm run build
 
 7.Deployed on Vercel
-https://kanban-dashboard.vercel.app/
+https://kanban-dashboard-delta.vercel.app/

@@ -28,24 +28,12 @@
       "id": "8d27",
       "title": "SideBar",
       "description": "sidebar on the left side",
-      "status": "In Progress"
+      "status": "To Do"
     },
     {
       "id": "489d",
       "title": "Burger Menu",
       "description": "Burger Menu on the top right corner",
-      "status": "Done"
-    },
-    {
-      "id": "baec",
-      "title": "dfger",
-      "description": "werf",
-      "status": "To Do"
-    },
-    {
-      "id": "09ac",
-      "title": "wer",
-      "description": "wer",
       "status": "In Progress"
     }
   ]
