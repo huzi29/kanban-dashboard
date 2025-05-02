@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kanban Dashboard
 
-## Getting Started
+A simple drag-and-drop Kanban board built with Next.js, Typed with TypeScript, styled with Tailwind CSS, and @hello-pangea/dnd. Tasks are stored and served locally using json-server.
 
-First, run the development server:
 
-```bash
+## Features
+
+- View tasks grouped by status: To Do, In Progress, Done
+- Add new tasks with a title, description, and initial status
+- Drag and drop tasks between columns
+- Tasks persist using a local JSON server (`db.json`)
+- After each operation (add/move), loadTasks() is called to sync the local state with the backend.
+
+## Tech Stack
+
+- Next.js (App Router) - A modern React framework for routing and SSR
+- TypeScript - Static typing for JavaScript
+- State Management - useState & useEffect for local state handling.
+- Tailwind CSS - For fast and responsive styling
+- @hello-pangea/dnd - Drag-and-drop functionality
+- json-server - Mock backend for task storage
+
+## Installation
+
+1.Clone the repository
+git clone https://github.com/huzi29/kanban-dashboard.git
+cd kanban-dashboard
+
+2.Install dependencies
+npm install
+
+3.Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4.Open your browser to http://localhost:3000 to view the app and for the backend mock server visit http://localhost:4000/tasks
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+5.To stop the development server, press Ctrl+C in the terminal where it's running.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+6.To build the production version of the app:
+npm run build
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+7.Deployed on Vercel
+https://kanban-dashboard.vercel.app/

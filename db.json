@@ -1,0 +1,52 @@
+{
+  "tasks": [
+    {
+      "id": "a979",
+      "title": "Header Section ",
+      "description": "Header Section needs to add new tasks",
+      "status": "To Do"
+    },
+    {
+      "id": "eda4",
+      "title": "Layout Section",
+      "description": "Display 3 Grids ==> To Do, In Progress, Done",
+      "status": "In Progress"
+    },
+    {
+      "id": "8859",
+      "title": "Kanban Dashboard",
+      "description": "Drag and Drop Function",
+      "status": "To Do"
+    },
+    {
+      "id": "7533",
+      "title": "Footer",
+      "description": "Footer Bar",
+      "status": "Done"
+    },
+    {
+      "id": "8d27",
+      "title": "SideBar",
+      "description": "sidebar on the left side",
+      "status": "In Progress"
+    },
+    {
+      "id": "489d",
+      "title": "Burger Menu",
+      "description": "Burger Menu on the top right corner",
+      "status": "Done"
+    },
+    {
+      "id": "baec",
+      "title": "dfger",
+      "description": "werf",
+      "status": "To Do"
+    },
+    {
+      "id": "09ac",
+      "title": "wer",
+      "description": "wer",
+      "status": "In Progress"
+    }
+  ]
+}
